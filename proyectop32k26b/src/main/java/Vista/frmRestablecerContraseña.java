@@ -46,6 +46,7 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
         txtUsuario = new javax.swing.JTextField();
         txtNuevaContrasena = new javax.swing.JPasswordField();
         txtVerificacion = new javax.swing.JPasswordField();
+        checkContraseña = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -72,6 +73,13 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         jLabel3.setText("Ingrese su Nombre de Usuario: ");
 
+        checkContraseña.setText("Ver Contraseña");
+        checkContraseña.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkContraseñaActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -86,13 +94,15 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
                             .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
                             .addComponent(txtNuevaContrasena)
-                            .addComponent(txtVerificacion)))
+                            .addComponent(txtVerificacion))
+                        .addGap(18, 18, 18)
+                        .addComponent(checkContraseña))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(53, 53, 53)
                         .addComponent(btnGuardar)
                         .addGap(18, 18, 18)
                         .addComponent(btnCancelar)))
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -108,7 +118,9 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
                 .addGap(12, 12, 12)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtVerificacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtVerificacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(checkContraseña))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar)
@@ -211,6 +223,22 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnGuardarActionPerformed
 
+    private void checkContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkContraseñaActionPerformed
+        char i = 0;
+        boolean check = false;
+        if (checkContraseña.isSelected()) {  // a es una variable boolean en true
+            check = true;
+            txtNuevaContrasena.setEchoChar((char)0); // este método es el que hace visible el texto del jPasswordField
+            txtVerificacion.setEchoChar((char)0);
+        
+        
+        } else {
+            txtNuevaContrasena.setEchoChar('*'); // i es el char
+            txtVerificacion.setEchoChar('*');
+            check = false;
+        }
+    }//GEN-LAST:event_checkContraseñaActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -249,6 +277,7 @@ public class frmRestablecerContraseña extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancelar;
     private javax.swing.JButton btnGuardar;
+    private javax.swing.JCheckBox checkContraseña;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

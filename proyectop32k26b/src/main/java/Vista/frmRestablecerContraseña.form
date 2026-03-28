@@ -35,6 +35,8 @@
                           <Component id="txtNuevaContrasena" max="32767" attributes="0"/>
                           <Component id="txtVerificacion" max="32767" attributes="0"/>
                       </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="checkContraseña" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
@@ -43,7 +45,7 @@
                       <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -61,7 +63,10 @@
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="txtVerificacion" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtVerificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkContraseña" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -118,6 +123,14 @@
     <Component class="javax.swing.JPasswordField" name="txtNuevaContrasena">
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtVerificacion">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkContrase&#xf1;a">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ver Contrase&#xf1;a"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkContrase&#xf1;aActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
