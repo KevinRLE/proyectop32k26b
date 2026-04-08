@@ -1,27 +1,24 @@
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\MantenimientoAsignacionPerfilUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAplicaciones.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AsignacionPerfilUsuarioDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmMantenimientoUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmProcesoAplicacionPerfil.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmLogin.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAsignacionPerfilUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\Conexion.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\PerfilDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmAplicaciones.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AplicacionesDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmAsignacionAplicacionUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsSeguridad.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AsignacionAplicacionUsuarioDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsBitacora.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AsignacionAplicacionPerfilDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmMantenimientoPerfil.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAsignacionAplicacionPerfil.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAsignacionAplicacionUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsUsuario.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\UsuarioDAO.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\MantenimientoBitacora.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsUsuarioConectado.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\MdiSeguridad.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsPerfil.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmRestablecerContraseña.java
-C:\Users\marlo\OneDrive\Documentos\2026\proyectoprogra\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\BitacoraDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AplicacionesDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmRestablecerContraseña.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAsignacionAplicacionPerfil.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsUsuario.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AsignacionAplicacionUsuarioDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsSeguridad.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\AsignacionAplicacionPerfilDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\MantenimientoBitacora.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAplicaciones.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\PerfilDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsBitacora.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmMantenimientoPerfil.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsUsuarioConectado.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\UsuarioDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmLogin.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsAsignacionAplicacionUsuario.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmProcesoAplicacionPerfil.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\MdiSeguridad.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\Conexion.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Modelo\BitacoraDAO.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmAplicaciones.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Controlador\clsPerfil.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmAsignacionAplicacionUsuario.java
+C:\Users\astri\Documents\Proyecto P3\proyectop32k26b\proyectop32k26b\src\main\java\Vista\frmMantenimientoUsuario.java
